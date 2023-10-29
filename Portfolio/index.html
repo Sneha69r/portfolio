@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="images/favicon.png" type="image/png">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/responsive-style.css">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+
+  <!-- navbar section -->
+
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" class="img-fluid" alt="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="far fa-stream navbar-toggler-icon"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- banner section -->
+
+  <section id="home" class="banner_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 order-lg-1 order-2 banner-content">
+          <h2 class="text-uppercase position-relative">Hello I'm</h2>
+          <h1 class="text-uppercase">Sneha Rawat</h1>
+          <div class="mt-5">
+            <a class="main-btn primary-btn"  href='https://www.linkedin.com/in/sneha-rawat-5135a0231/' target="_blank">Hire Me</a>
+            <a class="main-btn secondary-btn ms-4" href="https://drive.google.com/file/d/1A0Mpu4rgf9vQgbbm4M_jTzaHcAcc7s5J/view?usp=drive_link" target="_blank" download>Get CV</a>
+          </div>
+
+        </div>
+        <div class="col-lg-5 order-lg-2 order-1">
+
+          <div class="top-right-img">
+            <img decoding="async" src="images/sideimage.avif" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- about -->
+
+  <section id="about" class="about_wrapper">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 mb-4 mb-lg-0">
+          <img decoding="async" src="images/about-us.webp" class="img-fluid" alt="About Us">
+        </div>
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <h3>let me <br>Introduce about <br>myself</h3>
+          <p>I'm Sneha Rawat, I have completed my Bachelor's in Information technology. In the past few months, I have enrolled myself in a software development course with a specialization in full-stack development</p>
+          <p> I'm familiar with a few programming languages and front-end technology like HTML, CSS, Javascript, Python, and Java. Other than that, I love badminton and cycling.</p>
+          <a href="https://drive.google.com/file/d/1A0Mpu4rgf9vQgbbm4M_jTzaHcAcc7s5J/view?usp=drive_link" target="_blank" download" class="main-btn primary-btn mt-4">Download CV</a>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Projects -->
+
+  <section id="portfolio" class="portfolio_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-left mb-md-5 mb-2">
+          <h2>PROJECTS</h2>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+            <div class="row">
+
+              <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-img">
+                  <a href="https://github.com/Sneha69r/leadTracker" target="_blank">
+                    <img decoding="async" src="./images/work3.webp" class="img-fluid w-100">
+                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                  </a>
+                </div>
+                <h5 class="mb-0 mt-4">ChromeExtension-Online leadTracker</h5>
+                <p>HTML,CSS,JS</p>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-img">
+                  <a href="https://github.com/Sneha69r/faceRecognitionAttendence" target="_blank">
+                    <img decoding="async" src="./images/work2.jpg" class="img-fluid w-100">
+                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                  </a>
+                </div>
+                <h5 class="mb-0 mt-4">faceRecognitionAttendence</h5>
+                <p>Python</p>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-img">
+                  <a href="https://github.com/Sneha69r/weather" target="_blank">
+                    <img decoding="async" src="./images/work4.webp" class="img-fluid w-100">
+                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                  </a>
+                </div>
+                <h5 class="mb-0 mt-4">Weather</h5>
+                <p>HTML,CSS,JS</p>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-img">
+                  <a href="https://github.com/Sneha69r/texttospeech" target="_blank">
+                    <img decoding="async" src="./images/work2.jpg" class="img-fluid w-100">
+                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                  </a>
+                </div>
+                <h5 class="mb-0 mt-4">TextToSpeech</h5>
+                <p>Python</p>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-img">
+                  <a href="https://github.com/Sneha69r/Homepage" target="_blank">
+                    <img decoding="async" src="./images/work4.webp" class="img-fluid w-100">
+                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                  </a>
+                </div>
+                <h5 class="mb-0 mt-4">Homepage</h5>
+                <p>HTML,CSS</p>
+              </div>
+
+
+              <!-- <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-img">
+                  <img decoding="async" src="./images/work3.webp" class="img-fluid w-100">
+                  <div class="overlay"> <i class="fas fa-plus"></i></div>
+                </div>
+                <h5 class="mb-0 mt-4">MINIMAL DESIGN</h5>
+                <p>Animated, portfolio</p>
+              </div> -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Contact Me</h2>
+          <p>We'd love to hear from you! Feel free to get in touch.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <form>
+            <div class="form-group mt-3">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group mt-3">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group mt-3">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+              <div class="form-group mt-3"> <!-- Use the mt-3 class to add top margin -->
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-2">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="mb-0">Connect with me on social media:</p>
+                <a href="https://www.linkedin.com/in/sneha-rawat-5135a0231/" target="_blank" class="text-white me-4">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Sneha69r" target="_blank" class="text-white">
+                  <i class="fab fa-github-square"></i>
+                </a>
+                <p class="mb-0">Copyright &copy; 2023 All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
